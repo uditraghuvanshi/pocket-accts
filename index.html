@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poket Accts</title>
+    <!-- <link rel="stylesheet" href="output.css"> -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Prevent horizontal scroll */
+        html,
+        body {
+            overflow-x: hidden;
+        }
+
+        /* Box-sizing to prevent overflow issues */
+        * {
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+
+<body class="overflow-x-hidden">
+    <!-- Navbar -->
+    <nav class="bg-white shadow-md">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-20 items-center">
+                <!-- Logo -->
+                <div class="text-2xl font-bold">
+                    <a href="index.html">Pocket Accts</a>
+                </div>
+                <!-- Get in Touch Button -->
+                <div class="md:flex">
+                    <a href="./src/contact-us.html"><button class="bg-teal-500 hover:bg-teal-600 p-2 rounded-xl text-white text-xl">Get in Touch</button></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero-block grid grid-cols-1 md:grid-cols-2 w-full px-5 h-lvh">
+        <div class="block-left mt-10">
+            <div class="text-5xl md:text-8xl font-bold mt-5">
+                <h1>Achieve</h1>
+                <h1>Financial Clarity</h1>
+                <h1>and Control</h1>
+            </div>
+            <div class="text-xl md:text-2xl mt-5">
+                <h1>Streamline your financial management</h1>
+                <h1>with professional bookkeeping, tax preparation,</h1>
+                <h1>and payroll solutions.</h1>
+            </div>
+            <div class="hero-buttons mt-10">
+                <a href="#About-Us"><button class="bg-teal-500 text-xl text-white p-4 rounded-xl hover:bg-teal-600 mr-5">About
+                        Us</button></a>
+                <a href="#Our-Services"><button class="bg-teal-500 text-xl text-white p-4 rounded-xl hover:bg-teal-600">Our
+                        Services</button></a>
+            </div>
+        </div>
+        <div class="block-right mt-5">
+            <img class="rounded-2xl sm:rounded-bl-full shadow-2xl w-full max-w-full"
+                src="../images/pexels-fauxels-3184292.jpg" alt="">
+        </div>
+    </div>
+
+    <!-- About Us -->
+    <div class="about-us bg-gray-100 py-12 px-5 w-full mb-72" id="About-Us">
+        <div class="container mx-auto max-w-7xl grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+            <!-- Left Section -->
+            <div class="about-left text-center md:text-left">
+                <h1 class="text-3xl md:text-4xl font-bold text-gray-800">About Us</h1>
+                <p class="text-sm md:text-lg text-gray-600 mt-4 leading-relaxed">
+                    At <strong>Pocket Accts</strong>, we believe that financial success is built on knowledge, strategy,
+                    and
+                    the right tools.
+                    Whether you're an individual looking to manage your personal finances, an investor seeking market
+                    insights,
+                    or a business owner navigating financial growth, we are here to provide the expertise and resources
+                    you
+                    need
+                    to make informed decisions.
+                </p>
+                <p class="text-sm md:text-lg text-gray-600 mt-4 leading-relaxed">
+                    In today's ever-evolving financial landscape, staying ahead requires access to reliable, up-to-date,
+                    and practical financial guidance. Our goal is to simplify complex financial concepts, provide expert
+                    insights, and help you take control of your financial future.
+                </p>
+            </div>
+            <!-- Right Section (Image or Services) -->
+            <div class="about-right flex justify-center">
+                <img class="rounded-lg shadow-lg w-full max-w-4xl" src="../images/About Us.jpg" alt="Our Services">
+            </div>
+        </div>
+    </div>
+    <!-- Our Services -->
+    <div class="our-services bg-gray-100 py-12 px-5 w-full" id="Our-Services">
+        <div class="container mx-auto max-w-7xl text-center">
+            <h1 class="text-3xl md:text-4xl font-bold text-gray-800 mb-10">
+                Discover the Exceptional Services of Pocket Accts
+            </h1>
+            <div class="service-block grid grid-cols-1 md:grid-cols-2 gap-6">
+                <a href="./src/contact-us.html"><div class="service-item bg-white p-6 shadow-lg rounded-xl flex flex-col items-center hover:bg-gray-200">
+                    <img class="h-12 w-12 mx-auto mb-4" src="https://img.icons8.com/?size=100&id=85951&format=png&color=40C057" alt="Calculator Icon">
+                    <h2 class="text-xl font-semibold text-gray-700">Streamlined Bookkeeping</h2>
+                    <p class="text-gray-600 mt-2">Organized financial records for smooth business operations.</p>
+                </div></a>
+                <a href="./src/contact-us.html"><div class="service-item bg-white p-6 shadow-lg rounded-xl flex flex-col items-center hover:bg-gray-200">
+                    <img class="h-12 w-12 mx-auto mb-4" src="https://img.icons8.com/?size=100&id=59777&format=png&color=40C057" alt="Spreadsheet Icon">
+                    <h2 class="text-xl font-semibold text-gray-700">Expert Tax Preparation</h2>
+                    <p class="text-gray-600 mt-2">Accurate tax filing to maximize your savings.</p>
+                </div></a>
+                <a href="./src/contact-us.html"><div class="service-item bg-white p-6 shadow-lg rounded-xl flex flex-col items-center hover:bg-gray-200">
+                    <img class="h-12 w-12 mx-auto mb-4" src="../images/icons8-money-bag-rupee-50.png"
+                        alt="Consulting Icon">
+                    <h2 class="text-xl font-semibold text-gray-700">Dedicated Financial Consulting</h2>
+                    <p class="text-gray-600 mt-2">Professional insights to grow your wealth.</p>
+                </div></a>
+                <a href="./src/contact-us.html"><div class="service-item bg-white p-6 shadow-lg rounded-xl flex flex-col items-center hover:bg-gray-200">
+                    <img class="h-12 w-12 mx-auto mb-4" src="https://img.icons8.com/?size=100&id=10034&format=png&color=40C057"
+                        alt="Payroll Icon">
+                    <h2 class="text-xl font-semibold text-gray-700">Efficient Payroll Management</h2>
+                    <p class="text-gray-600 mt-2">Seamless payroll processing for your team.</p>
+                </div></a>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-10 px-5">
+        <div class="container mx-auto max-w-7xl grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
+    
+            <!-- Brand Section -->
+            <div class="brand-footer">
+                <h1 class="text-xl font-bold mb-3">Pocket Accts.</h1>
+                <p class="text-gray-400 text-sm">
+                    Dedicated to providing professional virtual accounting services, ensuring financial clarity for every
+                    client.
+                </p>
+            </div>
+    
+            <!-- Explore Section -->
+            <div class="explore-footer">
+                <h1 class="text-lg font-semibold mb-3">Explore</h1>
+                <ul class="space-y-2">
+                    <li><a href="#About-Us" class="text-gray-400 hover:text-teal-400 transition">About Us</a></li>
+                    <li><a href="#Our-Services" class="text-gray-400 hover:text-teal-400 transition">Our Services</a></li>
+                    <li><a href="./src/contact-us.html" class="text-gray-400 hover:text-teal-400 transition">Contact Us</a></li>
+                </ul>
+            </div>
+    
+            <!-- Services Section -->
+            <div class="services-footer">
+                <h1 class="text-lg font-semibold mb-3">Our Services</h1>
+                <ul class="space-y-2">
+                    <li class="text-gray-400">Bookkeeping</li>
+                    <li class="text-gray-400">Tax Preparation</li>
+                    <li class="text-gray-400">Financial Consulting</li>
+                    <li class="text-gray-400">Payroll Services</li>
+                </ul>
+            </div>
+    
+        </div>
+    
+        <!-- Footer Bottom -->
+        <div class="border-t border-gray-700 mt-8 pt-5 text-center text-sm text-gray-500">
+            © 2025 Pocket Accts. All Rights Reserved.
+        </div>
+    </footer>
+</body>
+
+</html>
